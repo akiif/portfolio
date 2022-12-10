@@ -1,0 +1,159 @@
+.projects-page-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-page-item-title {
+  font-size: 3rem;
+}
+
+.slider {
+  width: 120%;
+  min-height: 150px;
+  position: relative;
+}
+
+.carousel-button {
+  position: absolute;
+  cursor: pointer;
+  font-size: 3rem;
+  top: 50%;
+  z-index: 10;
+  background: none;
+  border: none;
+  transform: translateY(-50%);
+  -webkit-tap-highlight-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel-button:hover, 
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.arrow-button {
+  position: relative;
+  top: 5px;
+}
+
+.left-arrow {
+  left: 16px;
+}
+
+.right-arrow {
+  right: 16px;
+}
+
+.slides-image {
+  width: 100%;
+  height: 550px;
+  object-position: center;
+  border-radius: 9px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide-active {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+.projects-page-desc {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.projects-page-links {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.projects-page-links + .projects-page-links {
+  margin-left: 20px;
+}
+
+.projects-tech-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.projects-tech-stack-title {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.projects-page-tech-stack-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-page-tech-stack-image {
+  height: 30px;
+  width: 30px;
+}
+
+
+.projects-page-tech-stack-image + .projects-page-tech-stack-image {
+  margin-left: 10px;
+}
+/* Media Query from Tablets */
+
+@media (max-width: 1044px) {
+  .slides-image {
+    width: 100%;
+    height: 400px;
+  }
+
+  .carousel-button {
+    font-size: 1.8rem;
+  }
+}
+
+
+/* Media Query for Smartphones */
+
+@media (max-width: 768px) {
+  .slides-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .arrow-button {
+    top: 3px;
+  }
+
+  .projects-page-item-title {
+    font-size: 2.5rem;
+  }
+
+  .projects-tech-stack-title {
+    font-size: 20px;
+  }
+
+  .projects-page-tech-stack-image {
+    height: 22px;
+    width: 22px;
+  }
+}

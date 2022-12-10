@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Edunix",
+      "img": "Edunix",
+      "desc": "A Course Management Website where students can enroll in the courses and the teachers can keep track of the courses enrolled by the students and award them course credits.",
+      "github": "https://github.com/akiif/Edunix"
+    },
+    {
+      "id": 2,
+      "name": "Programming Wiki API",
+      "img": "ProgrammingWiki",
+      "desc": "A REST API that serves programming articles and offers a variety of filtering methods (random article, searching by title and tags).",
+      "link": "https://programmingwiki.herokuapp.com/",
+      "github": "https://github.com/akiif/ProgrammingWiki-API",
+      "npm": "https://www.npmjs.com/package/programmingwiki"
+    },
+    {
+      "id": 3,
+      "name": "Weather App",
+      "img": "WeatherApp",
+      "desc": "A simple weather app which is used to fetch the weather by entering the city name or zip code.",
+      "link": "https://akif.tech/weather-app/",
+      "github": "https://github.com/akiif/weather-app"
+    }
+]
