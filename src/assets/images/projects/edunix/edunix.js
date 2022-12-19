@@ -1,8 +1,8 @@
-import EdunixMain from "./edunix.png";
-import EdunixLogin from "./edunix-login.png";
-import EdunixEnrolled from "./edunix-enrolled.png";
-import EdunixProfile from "./edunix-profile.png";
-import EdunixStudents from "./edunix-view-student.png";
+import EdunixMain from "./edunix.webp";
+import EdunixLogin from "./edunix-login.webp";
+import EdunixEnrolled from "./edunix-enrolled.webp";
+import EdunixProfile from "./edunix-profile.webp";
+import EdunixStudents from "./edunix-view-student.webp";
 
 
 export default [EdunixMain, EdunixLogin, EdunixEnrolled, EdunixProfile, EdunixStudents];

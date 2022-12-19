@@ -20,7 +20,7 @@ function About() {
         I have completed my bachelor's degree in "Information Science and Engineering" from Mangalore, India. I am {myAge} years old. My hobbies include
         watching movies, anime and reviews of new tech products, gaming and reading novels.
       </article>
-      <a className='resume-btn btn' href={resumeLink} download={true}>Download Resume</a>
+      <a className='resume-btn btn' href={resumeLink} aria-label="Download Resume" download={true}>Download Resume</a>
     </section>
   );
 }

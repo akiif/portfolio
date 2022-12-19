@@ -1,5 +1,5 @@
-import ProgrammingWikiMain from "./programmingwiki.png";
-import ProgrammingWikiNpm from "./programmingwiki-npm.png";
-import ProgrammingWikiGithub from "./programmingwiki-github.png";
+import ProgrammingWikiMain from "./programmingwiki.webp";
+import ProgrammingWikiNpm from "./programmingwiki-npm.webp";
+import ProgrammingWikiGithub from "./programmingwiki-github.webp";
 
 export default [ProgrammingWikiMain, ProgrammingWikiNpm, ProgrammingWikiGithub];

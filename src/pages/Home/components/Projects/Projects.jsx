@@ -19,9 +19,9 @@ function Projects() {
                 <h3 className="project-title">{project.name}</h3>
                 <p className='project-desc'>{project.desc}</p>
                 <div className="project-links">
-                  {project.link ? <a href={project.link} className='project-link-items link-hover' target="_blank" rel="noopener noreferrer"><FaLink className='Fa-icons' /></a> : null}
-                  {project.github ? <a href={project.github} className='project-link-items link-hover' target="_blank" rel="noopener noreferrer"><FaGithub className='Fa-icons' /></a> : null}
-                  {project.npm ? <a href={project.npm} className='project-link-items link-hover' target="_blank" rel="noopener noreferrer"><FaNpm className='Fa-icons' /></a> : null}
+                  {project.link ? <a href={project.link} className='project-link-items link-hover' target="_blank" rel="noopener noreferrer" aria-label="Project Link"><FaLink className='Fa-icons' /></a> : null}
+                  {project.github ? <a href={project.github} className='project-link-items link-hover' target="_blank" rel="noopener noreferrer" aria-label="Project GitHub Link"><FaGithub className='Fa-icons' /></a> : null}
+                  {project.npm ? <a href={project.npm} className='project-link-items link-hover' target="_blank" rel="noopener noreferrer" aria-label="Project NPM Link"><FaNpm className='Fa-icons' /></a> : null}
                 </div>
               </div>
             </div>
