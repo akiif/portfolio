@@ -1,4 +1,5 @@
 // Carousel Images Import
+import TaskMaster from "../../assets/images/projects/task-master/task-master";
 import Edunix from "../../assets/images/projects/edunix/edunix";
 import ProgrammingWikiMain from "../../assets/images/projects/programming-wiki/programming-wiki";
 import WeatherApp from "../../assets/images/projects/weather-app/weather-app";
@@ -16,10 +17,21 @@ import MySql from "../../assets/images/skills/mysql.svg";
 import Html from "../../assets/images/skills/html.svg";
 import Css from "../../assets/images/skills/css3.svg";
 import Redux from "../../assets/images/skills/redux.svg";
+import Express from "../../assets/images/skills/express.svg";
+import Passport from "../../assets/images/skills/passport.svg";
 
 export default [
   {
     id: 1,
+    title: 'Task-Master',
+    slides: TaskMaster,
+    techStack: [MongoDB, Express, ReactJs, NodeJs, Redux, Passport],
+    desc: "A MERN stack to-do list app with separate list for each user and OAuth as well as local login feature. The users can create, edit and delete tasks. Used Redux to store the login session info on the frontend. Used passport.js to authenticate users on the backend.",
+    link: "https://task-masterr.github.io/",
+    github: "https://github.com/akiif/task-master"
+  },
+  {
+    id: 2,
     title: 'Edunix',
     slides: Edunix,
     techStack: [Python, MySql, Flask],
@@ -27,7 +39,7 @@ export default [
     github: "https://github.com/akiif/Edunix"
   },
   {
-    id: 2,
+    id: 3,
     title: 'Programming Wiki API',
     slides: ProgrammingWikiMain,
     techStack: [NodeJs, MongoDB],
@@ -37,7 +49,7 @@ export default [
     npm: "https://www.npmjs.com/package/programmingwiki"
   },
   {
-    id: 3,
+    id: 4,
     title: 'Weather App',
     slides: WeatherApp,
     techStack: [Javascript, Html, Css],
@@ -46,7 +58,7 @@ export default [
     github: "https://github.com/akiif/weather-app"
   },
   {
-    id: 4,
+    id: 5,
     title: 'Color Guess Game',
     slides: GuessColor,
     techStack: [ReactJs, Redux],
@@ -55,7 +67,7 @@ export default [
     github: "https://github.com/akiif/guess-color"
   },
   {
-    id: 5,
+    id: 6,
     title: 'Portfolio',
     slides: Portfolio,
     techStack: [ReactJs, Javascript, Css],
