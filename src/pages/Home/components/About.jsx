@@ -1,6 +1,6 @@
 import React from 'react';
 
-const resumeLink = "https://drive.google.com/u/2/uc?id=14Cibaw_o5ERht5KviTBjWW_0Ezg1e6JR&export=download";
+const resumeLink = "https://drive.google.com/u/2/uc?id=1aKRYWecb0zwVE2q58_vL6D0qH7tgqc1x&export=download";
 
 function About() {
   function calculate_age(dob) {

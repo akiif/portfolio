@@ -1,7 +1,7 @@
 # portfolio
 
 > A Personal Portfolio Website built using React.
-> Live demo [_here_](https://www.akiif.dev).
+> Live demo [_here_](https://akiif.dev).
 
 ## Table of contents
 
@@ -32,13 +32,13 @@ A Personal Portfolio Website built using React with Vite as the build tool.
 To run this project:
 
 -   Download the project code or clone it using git clone.
--   Make sure you have [NodeJs](https://nodejs.org/en/) installed in your system.
--   Then, Install it locally using npm:
+-   Make sure you have [NodeJs](https://nodejs.org/en/) and [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) installed in your system.
+-   Then, Install it locally using yarn:
 
 ```
 $ cd portfolio
-$ npm install
-$ npm run dev
+$ yarn
+$ yarn dev
 ```
 
 ## Contact
