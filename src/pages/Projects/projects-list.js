@@ -1,6 +1,7 @@
 // Carousel Images Import
 import TaskMaster from "../../assets/images/projects/task-master/task-master";
 import Edunix from "../../assets/images/projects/edunix/edunix";
+import AtmSystem from "../../assets/images/projects/atm-system/atm-system";
 import ProgrammingWikiMain from "../../assets/images/projects/programming-wiki/programming-wiki";
 import WeatherApp from "../../assets/images/projects/weather-app/weather-app";
 import GuessColor from "../../assets/images/projects/guess-color/guess-color";
@@ -40,6 +41,14 @@ export default [
   },
   {
     id: 3,
+    title: 'ATM-System',
+    slides: AtmSystem,
+    techStack: [NodeJs, MySql, Express, Passport],
+    desc: "An ATM System Management app built using Node.js and MySQL. The user can create a new bank account and login using local authentication. It features CRUD operations as well as use of SQL Triggers. The user can view all their transactions in the Transactions Page.",
+    github: "https://github.com/akiif/atm-system"
+  },
+  {
+    id: 4,
     title: 'Programming Wiki API',
     slides: ProgrammingWikiMain,
     techStack: [NodeJs, MongoDB],
@@ -49,7 +58,7 @@ export default [
     npm: "https://www.npmjs.com/package/programmingwiki"
   },
   {
-    id: 4,
+    id: 5,
     title: 'Weather App',
     slides: WeatherApp,
     techStack: [Javascript, Html, Css],
@@ -58,7 +67,7 @@ export default [
     github: "https://github.com/akiif/weather-app"
   },
   {
-    id: 5,
+    id: 6,
     title: 'Color Guess Game',
     slides: GuessColor,
     techStack: [ReactJs, Redux],
@@ -67,7 +76,7 @@ export default [
     github: "https://github.com/akiif/guess-color"
   },
   {
-    id: 6,
+    id: 7,
     title: 'Portfolio',
     slides: Portfolio,
     techStack: [ReactJs, Javascript, Css],

@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const resumeLink = "https://drive.google.com/u/2/uc?id=1aKRYWecb0zwVE2q58_vL6D0qH7tgqc1x&export=download";
 
 function About() {
-  function calculate_age(dob) {
-    var diff_ms = Date.now() - dob.getTime();
-    var age_dt = new Date(diff_ms);
-
-    return Math.abs(age_dt.getUTCFullYear() - 1970);
+  const calculate_age = (dateString) => {
+    var today = new Date();
+    var birthDate = new Date(dateString);
+    var age = today.getFullYear() - birthDate.getFullYear();
+    var m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+    return age;
   }
-  const myAge = calculate_age(new Date(2000, 1, 26));
+
+  const [myAge, setMyAge] = useState(() => {
+    return calculate_age("2000/01/26");
+  });
 
   return (
     <section className='about colored-section' id='about'>
