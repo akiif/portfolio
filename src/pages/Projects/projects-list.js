@@ -53,7 +53,7 @@ export default [
     slides: ProgrammingWikiMain,
     techStack: [NodeJs, MongoDB],
     desc: "A REST API that serves programming articles and offers a variety of filtering methods (random article, searching by title and tags).",
-    link: "https://programmingwiki.up.railway.app/",
+    link: "https://programmingwiki.onrender.com/",
     github: "https://github.com/akiif/ProgrammingWiki-API",
     npm: "https://www.npmjs.com/package/programmingwiki"
   },
@@ -63,7 +63,7 @@ export default [
     slides: WeatherApp,
     techStack: [Javascript, Html, Css],
     desc: "A simple weather app which is used to fetch the weather by entering the city name or zip code.",
-    link: "https://akif.tech/weather-app/",
+    link: "https://akiif.github.io/weather-app/",
     github: "https://github.com/akiif/weather-app"
   },
   {
@@ -72,7 +72,7 @@ export default [
     slides: GuessColor,
     techStack: [ReactJs, Redux],
     desc: "A simple color guessing game built using React and Redux toolkit.",
-    link: "https://akif.tech/guess-color/",
+    link: "https://akiif.github.io/guess-color/",
     github: "https://github.com/akiif/guess-color"
   },
   {

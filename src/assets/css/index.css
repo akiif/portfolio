@@ -344,16 +344,6 @@ article {
   text-decoration: none;
 }
 
-/* Projects Page */
-
-.projects-page-main-title {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  font-size: 4rem;
-  font-weight: 700;
-  padding-top: 10px;
-}
-
 /* 404 Page */
 
 .not-found-page {
@@ -555,7 +545,7 @@ footer {
 
   .nav-item {
     margin: 20px 0px;
-    margin-left: -20px;
+    margin-left: -30px;
     line-height: 30px;
     font-size: 1.4rem;
   }
@@ -649,7 +639,8 @@ footer {
   }
 
   article {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    text-align: justify;
   }
 
   section {
@@ -670,7 +661,7 @@ footer {
     align-items: center;
   }
 
-  .project-item+.project-item {
+  .project-item + .project-item {
     margin-top: 70px;
   }
 
@@ -678,6 +669,10 @@ footer {
     margin-left: auto;
     justify-content: center;
     align-items: center;
+  }
+
+  .project-desc {
+    font-size: 1rem;
   }
 
   .project-img {

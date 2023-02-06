@@ -1,3 +1,13 @@
+/* Projects Page */
+
+.projects-page-main-title {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
 .projects-page-item {
   display: flex;
   flex-direction: column;
@@ -135,6 +145,10 @@
 /* Media Query for Smartphones */
 
 @media (max-width: 768px) {
+  .projects-page-main-title {
+    font-size: 3rem;
+  }
+
   .slides-image {
     width: 100%;
     height: auto;
@@ -145,7 +159,7 @@
   }
 
   .projects-page-item-title {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
 
   .projects-tech-stack-title {
@@ -155,5 +169,14 @@
   .projects-page-tech-stack-image {
     height: 22px;
     width: 22px;
+  }
+
+  .projects-page-desc {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .projects-page-links {
+    font-size: 2rem;
   }
 }

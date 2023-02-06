@@ -1,10 +1,15 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+
+// import components
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+// import Pages components
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
+import Links from "./pages/Links/Links";
 import NotFound from "./pages/NotFound"
-import Footer from "./components/Footer";
 
 function App() {
   const { pathname, hash, key } = useLocation();
@@ -32,6 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/links" element={<Links />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
