@@ -19,8 +19,8 @@
       "id": 3,
       "name": "Weather App",
       "img": "WeatherApp",
-      "desc": "A simple weather app which is used to fetch the weather by entering the city name or zip code.",
-      "link": "https://akif.tech/weather-app/",
+      "desc": "A weather app built using React which is used to fetch the weather data the from Open Weather api using the axios library.",
+      "link": "https://akiif.github.io/weather-app/",
       "github": "https://github.com/akiif/weather-app"
     }
 ]

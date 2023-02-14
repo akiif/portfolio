@@ -61,8 +61,8 @@ export default [
     id: 5,
     title: 'Weather App',
     slides: WeatherApp,
-    techStack: [Javascript, Html, Css],
-    desc: "A simple weather app which is used to fetch the weather by entering the city name or zip code.",
+    techStack: [ReactJs, Javascript, Html, Css],
+    desc: "A weather app built using React which is used to fetch the weather data from the Open Weather api using the axios library.",
     link: "https://akiif.github.io/weather-app/",
     github: "https://github.com/akiif/weather-app"
   },
