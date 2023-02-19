@@ -1,5 +1,6 @@
 // Carousel Images Import
 import TaskMaster from "../../assets/images/projects/task-master/task-master";
+import ChatApp from "../../assets/images/projects/chat-app/chat-app";
 import Edunix from "../../assets/images/projects/edunix/edunix";
 import AtmSystem from "../../assets/images/projects/atm-system/atm-system";
 import ProgrammingWikiMain from "../../assets/images/projects/programming-wiki/programming-wiki";
@@ -20,6 +21,7 @@ import Css from "../../assets/images/skills/css3.svg";
 import Redux from "../../assets/images/skills/redux.svg";
 import Express from "../../assets/images/skills/express.svg";
 import Passport from "../../assets/images/skills/passport.svg";
+import SocketIO from "../../assets/images/skills/socket-io.svg";
 
 export default [
   {
@@ -33,6 +35,15 @@ export default [
   },
   {
     id: 2,
+    title: 'chat-app',
+    slides: ChatApp,
+    techStack: [NodeJs, ReactJs, Express, Redux, SocketIO],
+    desc: "A chat app built using Node.js (backend), React (frontend) and Socket.IO for data sharing. It makes use of the concept of web sockets to enable real time communications. The users can send plain text messages as well as location links.",
+    link: "https://akiif.github.io/chat-app",
+    github: "https://github.com/akiif/chat-app"
+  },
+  {
+    id: 3,
     title: 'Edunix',
     slides: Edunix,
     techStack: [Python, MySql, Flask],
@@ -40,7 +51,7 @@ export default [
     github: "https://github.com/akiif/Edunix"
   },
   {
-    id: 3,
+    id: 4,
     title: 'ATM-System',
     slides: AtmSystem,
     techStack: [NodeJs, MySql, Express, Passport],
@@ -48,7 +59,7 @@ export default [
     github: "https://github.com/akiif/atm-system"
   },
   {
-    id: 4,
+    id: 5,
     title: 'Programming Wiki API',
     slides: ProgrammingWikiMain,
     techStack: [NodeJs, MongoDB],
@@ -58,7 +69,7 @@ export default [
     npm: "https://www.npmjs.com/package/programmingwiki"
   },
   {
-    id: 5,
+    id: 6,
     title: 'Weather App',
     slides: WeatherApp,
     techStack: [ReactJs, Javascript, Html, Css],
@@ -67,7 +78,7 @@ export default [
     github: "https://github.com/akiif/weather-app"
   },
   {
-    id: 6,
+    id: 7,
     title: 'Color Guess Game',
     slides: GuessColor,
     techStack: [ReactJs, Redux],
@@ -76,7 +87,7 @@ export default [
     github: "https://github.com/akiif/guess-color"
   },
   {
-    id: 7,
+    id: 8,
     title: 'Portfolio',
     slides: Portfolio,
     techStack: [ReactJs, Javascript, Css],
