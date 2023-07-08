@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Typography } from '@mui/material';
-import { sora } from '../../../../utils/fonts.util';
+import { sora } from '@/utils/fonts.util';
 import styles from '../Navbar.module.css';
 
 function Logo() {

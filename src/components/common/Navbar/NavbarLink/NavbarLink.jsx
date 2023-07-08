@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 import styles from '../Navbar.module.css';
 
 // import font
-import { lato } from '../../../../utils/fonts.util';
+import { lato } from '@/utils/fonts.util';
 
 function NavbarLink({ page, currentPage }) {
   return (
