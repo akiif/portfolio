@@ -3,10 +3,12 @@
   "version": "2.0.0",
   "private": true,
   "homepage": "https://akiif.dev/",
+  "author": "Akif Mohammed",
+  "license": "ISC",
   "scripts": {
     "dev": "next dev -p 4242",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 4422",
     "lint": "next lint"
   },
   "dependencies": {

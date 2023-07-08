@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import {
   AppBar,
   Box,
@@ -39,14 +39,20 @@ const pages = [
 function Navbar() {
   const [showNavMenu, setShowNavMenu] = useState(null);
   const currentPage = usePathname();
+  const router = useRouter();
 
   const handleOpenNavMenu = (event) => {
     setShowNavMenu(event.currentTarget);
   };
 
-  const handleCloseNavMenu = () => {
+  const handleCloseNavMenu = (path) => {
     setShowNavMenu(null);
   };
+
+  const handleChangeRoute = (path) => {
+    router.push(path);
+    setShowNavMenu(null);
+  }
 
   return (
     <AppBar
@@ -61,7 +67,7 @@ function Navbar() {
             {pages.map((page) => (
               <Button
                 key={page.display}
-                onClick={handleCloseNavMenu}
+                onClick={() => handleChangeRoute(page.href)}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 <NavbarLink page={page} currentPage={currentPage} />
@@ -98,7 +104,7 @@ function Navbar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.display} onClick={handleCloseNavMenu}>
+                <MenuItem key={page.display} onClick={() => handleChangeRoute(page.href)}>
                   <NavbarLink page={page} currentPage={currentPage} />
                 </MenuItem>
               ))}
