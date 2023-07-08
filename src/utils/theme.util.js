@@ -10,12 +10,10 @@ const theme = createTheme({
   palette: {
     primary: {
       main: '#FFF',
+      hover: '#4786e5',
     },
     secondary: {
       main: '#5541D7',
-    },
-    linkHover: {
-      main: '#4786e5',
     },
     neutral: {
       main: '#4F4F4F',

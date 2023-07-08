@@ -7,15 +7,19 @@ import { StyledEngineProvider } from '@mui/material/styles';
 
 // import components
 import Navbar from '@/components/common/Navbar/Navbar';
+import Footer from '@/components/common/Footer/Footer';
 
 function DefaultLayout({ children }) {
   return (
-    <StyledEngineProvider injectFirst>
-      <ThemeProvider theme={theme}>
-        <Navbar />
-        {children}
-      </ThemeProvider>
-    </StyledEngineProvider>
+    <div className='app__layout'>
+      <StyledEngineProvider injectFirst>
+        <ThemeProvider theme={theme}>
+          <Navbar />
+          {children}
+          <Footer />
+        </ThemeProvider>
+      </StyledEngineProvider>
+    </div>
   );
 }
 

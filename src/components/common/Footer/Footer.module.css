@@ -1,0 +1,37 @@
+.footer {
+  padding: 2.5% 10% 1%;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.footer__item {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.footer__mui__icon {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2.7rem;
+}
+
+.footer__mui__icon:hover {
+  color: #4786e5;
+}
+
+.footer__copyright {
+  text-align: center;
+  font-weight: 200;
+}

@@ -17,24 +17,8 @@ import styles from './Navbar.module.css';
 import Logo from './Logo/Logo';
 import NavbarLink from './NavbarLink/NavbarLink';
 
-const pages = [
-  {
-    display: 'HOME',
-    href: '/',
-  },
-  {
-    display: 'ABOUT',
-    href: '/#about',
-  },
-  {
-    display: 'SKILLS',
-    href: '/#skills',
-  },
-  {
-    display: 'PROJECTS',
-    href: '/projects',
-  },
-];
+// import pagesConfig
+import pages from '@/config/pages.config';
 
 function Navbar() {
   const [showNavMenu, setShowNavMenu] = useState(null);

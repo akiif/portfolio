@@ -13,8 +13,18 @@ html {
   color: #fff;
 }
 
-.colored-section {
+.app__layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.colored__section {
   background-color: #40375c;
   background-image: url("/images/transparent-bg.png");
 }
 
+.link__hover:hover {
+  color: #4786e5;
+}
