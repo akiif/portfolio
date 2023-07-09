@@ -14,18 +14,18 @@ function Footer() {
         <p className={styles.footer__item}>
           <a
             href="https://github.com/akiif/"
-            className="footer-link link__hover"
+            className={`${styles.footer__link}`}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
           >
-            <GitHubIcon color="primary" className={styles.footer__mui__icon} />
+            <GitHubIcon className={styles.footer__mui__icon} />
           </a>
         </p>
         <p className={styles.footer__item}>
           <a
             href="https://www.linkedin.com/in/akif-mohammed/"
-            className="footer-link link__hover"
+            className={`${styles.footer__link}`}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -36,7 +36,7 @@ function Footer() {
         <p className={styles.footer__item}>
           <a
             href="https://twitter.com/akiif_m/"
-            className="footer-link link__hover"
+            className={`${styles.footer__link}`}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter"
@@ -47,7 +47,7 @@ function Footer() {
         <p className={styles.footer__item}>
           <a
             href="https://www.instagram.com/akiif.m/"
-            className="footer-link link__hover"
+            className={`${styles.footer__link}`}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
