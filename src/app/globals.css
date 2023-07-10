@@ -22,9 +22,40 @@ html {
 
 .colored__section {
   background-color: #40375c;
-  background-image: url("/images/transparent-bg.png");
+  background-image: url('/images/transparent-bg.png');
 }
 
 .link__hover:hover {
   color: #4786e5;
+}
+
+/* Image Shake */
+
+.shake__img:hover {
+  animation: horizontal-shaking 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(4px);
+  }
+
+  50% {
+    transform: translateX(-4px);
+  }
+
+  75% {
+    transform: translateX(4px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }

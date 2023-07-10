@@ -1,0 +1,84 @@
+.home__header__container {
+  padding: 1% 12% 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__heading {
+  font-weight: 900;
+  font-size: 7rem;
+  margin-bottom: 0;
+}
+
+.header__social__links {
+  display: flex;
+  gap: 20px;
+}
+
+.header__link {
+  margin-top: 10px;
+}
+
+.header__mui__icon {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2.4rem;
+  fill: #fff;
+}
+
+.header__mui__icon:hover {
+  fill: #4786e5;
+}
+
+.header__bitmoji__img {
+  width: 405px;
+  height: 405px;
+}
+
+/* Media Query from Tablets */
+@media (max-width: 1044px) {
+  /* .home__header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+}
+
+/* Media Query for Smartphones */
+@media (max-width: 768px) {
+  .home__header__container {
+    padding: 5% 12% 4%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header__heading {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .header__social__links {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__link {
+    margin-top: 25px;
+  }
+
+  .header__mui__icon {
+    font-size: 2.2rem;
+  }
+
+  .header__social__links {
+  display: flex;
+  gap: 20px;
+}
+
+  .header__bitmoji__img {
+    width: 205px;
+    height: 209px;
+  }
+}
