@@ -12,7 +12,7 @@ function HomeHeaderGreetings() {
         variant="h1"
         className={`${styles.header__heading} ${montserrat.className}`}
       >
-        Hey, <br /> I'm Akif
+        Hey, <br /> I&apos;m Akif
       </Typography>
     </Box>
   );
