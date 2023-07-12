@@ -29,6 +29,11 @@ html {
   color: #4786e5;
 }
 
+
+.bold {
+  font-weight: 800;
+}
+
 /* Image Shake */
 
 .shake__img:hover {

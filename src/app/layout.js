@@ -5,7 +5,7 @@ import '@/assets/css/scrollbar.css';
 import { poppins } from '@/utils/fonts.util';
 
 // import Default layout
-import DefaultLayout from '@/views/DefaultLayout';
+import DefaultLayout from '@/layouts/DefaultLayout';
 
 export const metadata = {
   title: 'Akif Mohammed',
