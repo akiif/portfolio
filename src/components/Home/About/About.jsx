@@ -31,8 +31,8 @@ function About() {
           I am <span className="bold">Akif Mohammed</span>; A Software Engineer who
           loves all things tech. I love to explore new technologies.
           <br />
-          <br />I have completed my bachelor's degree in "Information Science and
-          Engineering" from Mangalore, India. I am {myAge} years old. My hobbies
+          <br />I have completed my bachelor&apos;s degree in &quot;Information Science and
+          Engineering&quot; from Mangalore, India. I am {myAge} years old. My hobbies
           include watching movies, anime and reviews of new tech products, gaming and
           reading novels.
         </Typography>
