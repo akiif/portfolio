@@ -11,7 +11,7 @@ import SkillsItemTitle from '../SkillsItemTitle';
 import toolsList from './tools.config';
 
 // import tools icons
-import ToolsIcons from '@/assets/icons/skills/tools/toolsIcons';
+import ToolsIcons from '@/assets/icons/skills/tools/ToolsIcons';
 
 function Tools() {
   return (
