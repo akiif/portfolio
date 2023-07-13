@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 // import font utils
 import { montserrat } from '@/utils/fonts.util';
 
-function Title({ titleText }) {
+function Title({ children }) {
   return (
     <Typography
       variant="h2"
@@ -15,7 +15,7 @@ function Title({ titleText }) {
         fontWeight: 700,
       }}
     >
-      {titleText}
+      {children}
     </Typography>
   );
 }
