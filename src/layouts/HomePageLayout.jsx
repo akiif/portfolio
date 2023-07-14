@@ -5,6 +5,7 @@ import React from 'react';
 import HomeHeader from '@/components/Home/HomeHeader/HomeHeader';
 import About from '@/components/Home/About/About';
 import Skills from '@/components/Home/Skills/Skills';
+import Projects from '@/components/Home/Projects/Projects';
 
 function HomePageLayout() {
   return (
@@ -12,6 +13,7 @@ function HomePageLayout() {
       <HomeHeader />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 }
