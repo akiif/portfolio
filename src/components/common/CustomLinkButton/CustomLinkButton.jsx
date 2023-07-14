@@ -1,8 +1,27 @@
 import React from 'react';
 import { Button } from '@mui/material';
+import Link from 'next/link';
 import styles from './CustomLinkButton.module.css';
 
-function CustomLinkButton({ buttonText, className, download, ariaLabel, href }) {
+function CustomLinkButton({
+  children,
+  linkButton,
+  className,
+  download,
+  ariaLabel,
+  href,
+}) {
+  if (linkButton) {
+    return (
+      <Link
+        className={`${styles.btn} ${className}`}
+        aria-label={ariaLabel}
+        href={href}
+      >
+        {children}
+      </Link>
+    );
+  }
   return (
     <Button
       className={`${styles.btn} ${className}`}
@@ -10,7 +29,7 @@ function CustomLinkButton({ buttonText, className, download, ariaLabel, href }) 
       aria-label={ariaLabel}
       href={href}
     >
-      {buttonText}
+      {children}
     </Button>
   );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './Projects.module.css';
 
 // import data
@@ -9,6 +10,7 @@ import ProjectsList from './ProjectsList';
 // import components
 import Title from '@/components/common/Title';
 import ProjectsLinks from '@/components/common/Projects/ProjectsLinks';
+import CustomLinkButton from '@/components/common/CustomLinkButton/CustomLinkButton';
 
 function Projects() {
   return (
@@ -42,6 +44,13 @@ function Projects() {
           );
         })}
       </Box>
+      <CustomLinkButton
+        href="/projects"
+        linkButton={true}
+        className={`${styles.project__link__btn}`}
+      >
+        View All 🔗
+      </CustomLinkButton>
     </Box>
   );
 }

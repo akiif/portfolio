@@ -38,11 +38,12 @@ function About() {
         </Typography>
         <CustomLinkButton
           className={styles.about__resume__btn}
-          buttonText={'Download Resume'}
           download={true}
           ariaLabel="Download Resume"
           href={homeConfig.resumeLink}
-        />
+        >
+          Download Resume
+        </CustomLinkButton>
       </Box>
     </Box>
   );

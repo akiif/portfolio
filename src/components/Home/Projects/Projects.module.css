@@ -1,5 +1,5 @@
 .projects {
-  padding: 4% 12% 7%;
+  padding: 4% 12% 6%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,4 +51,9 @@
 
 .project__link__icon:hover {
   fill: #4786e5;
+}
+
+.project__link__btn {
+  margin-top: 100px;
+  letter-spacing: 2px;
 }
