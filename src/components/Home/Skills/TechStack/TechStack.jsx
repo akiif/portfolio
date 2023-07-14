@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Box } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import styles from '../Skills.module.css';
 
 // import components
@@ -17,18 +17,18 @@ function TechStack() {
   return (
     <Box sx={{ marginTop: '45px' }}>
       <SkillsSubTitle>Tech Stack 👨‍💻</SkillsSubTitle>
-      <Box className={styles.skills__list}>
+      <Grid container spacing={3} className={styles.skills__list}>
         {techStackList.map((techStack, index) => (
-          <Box key={index} className={styles.skills__item}>
+          <Grid item xs={6} md={4} key={index} className={styles.skills__item}>
             <Image
               src={TechStackIcons[techStack.img]}
               alt={techStack.name}
               className={`${styles.skills__img} ${styles.skills__grow__img}`}
             />
             <SkillsItemTitle>{techStack.name}</SkillsItemTitle>
-          </Box>
+          </Grid>
         ))}
-      </Box>
+      </Grid>
     </Box>
   );
 }
