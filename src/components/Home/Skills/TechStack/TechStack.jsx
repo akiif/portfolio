@@ -18,8 +18,8 @@ function TechStack() {
     <Box sx={{ marginTop: '45px' }}>
       <SkillsSubTitle>Tech Stack 👨‍💻</SkillsSubTitle>
       <Box className={styles.skills__list}>
-        {techStackList.map((techStack) => (
-          <Box key={techStack.id} className={styles.skills__item}>
+        {techStackList.map((techStack, index) => (
+          <Box key={index} className={styles.skills__item}>
             <Image
               src={TechStackIcons[techStack.img]}
               alt={techStack.name}

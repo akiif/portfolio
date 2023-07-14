@@ -1,3 +1,4 @@
+import NextJs from './nextjs.svg';
 import Html from './html.svg';
 import CSS from './css3.svg';
 import Javascript from './javascript.svg';
@@ -9,6 +10,7 @@ import MySql from './mysql.svg';
 import Python from './python.svg';
 
 const TechStackIcons = {
+  NextJs,
   Html,
   CSS,
   Javascript,

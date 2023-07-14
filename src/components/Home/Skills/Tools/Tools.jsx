@@ -18,8 +18,8 @@ function Tools() {
     <Box sx={{ marginTop: '45px' }}>
       <SkillsSubTitle>Tools ⚙️</SkillsSubTitle>
       <Box className={styles.skills__list}>
-        {toolsList.map((tool) => (
-          <Box key={tool.id} className={styles.skills__item}>
+        {toolsList.map((tool, index) => (
+          <Box key={index} className={styles.skills__item}>
             <Image
               src={ToolsIcons[tool.img]}
               alt={tool.name}
