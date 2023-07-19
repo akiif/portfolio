@@ -17,7 +17,7 @@ A Personal Portfolio Website built using NextJs.
 
 ## Technologies
 
-- NextJs 13.4.9
+- Next.js 13.4.9
 - React 18.2.0
 - Node 18.16.1
 
