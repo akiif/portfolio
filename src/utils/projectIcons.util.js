@@ -12,8 +12,8 @@ const NpmIcon = createSvgIcon(
     xmlns="http://www.w3.org/2000/svg"
     fill="#ffffff"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0" />
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+    <g id="SVGRepo_bgCarrier" strokeWidth="0" />
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
     <g id="SVGRepo_iconCarrier">
       <title>npm</title>
       <g id="Layer_2" data-name="Layer 2">
