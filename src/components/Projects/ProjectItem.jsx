@@ -5,6 +5,7 @@ import styles from './Projects.module.css';
 
 // import components
 import ProjectsLinks from '../common/Projects/ProjectsLinks';
+import ImageSlider from './ImageSlider';
 
 function ProjectItem({ project, id }) {
   const sectionID = project.title.toLowerCase().split(' ').join('-');
@@ -13,6 +14,7 @@ function ProjectItem({ project, id }) {
       <Typography className={`${styles.projects__item__title}`}>
         {project.title}
       </Typography>
+      <ImageSlider slides={project.slides} />
       <Box className={styles.projects__tech__stack}>
         <Typography className={styles.projects__tech__stack__title}>
           Tech Stack ⚙️:
