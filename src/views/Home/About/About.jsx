@@ -6,8 +6,8 @@ import styles from './About.module.css';
 import homeConfig from '@/config/home.config';
 
 // import components
-import Title from '@/components/common/Title';
-import CustomLinkButton from '@/components/common/CustomLinkButton/CustomLinkButton';
+import Title from '@/components/Title';
+import CustomLinkButton from '@/components/CustomLinkButton/CustomLinkButton';
 
 function About() {
   const calculate_age = (dateString) => {

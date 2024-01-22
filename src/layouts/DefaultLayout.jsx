@@ -6,8 +6,8 @@ import { ThemeProvider } from '@emotion/react';
 import { StyledEngineProvider } from '@mui/material/styles';
 
 // import components
-import Navbar from '@/components/common/Navbar/Navbar';
-import Footer from '@/components/common/Footer/Footer';
+import Navbar from '@/components/Navbar/Navbar';
+import Footer from '@/components/Footer/Footer';
 
 function DefaultLayout({ children }) {
   return (

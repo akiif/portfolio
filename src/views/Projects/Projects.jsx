@@ -4,7 +4,7 @@ import { Box } from '@mui/material';
 import styles from './Projects.module.css';
 
 // import components
-import Title from '../../components/common/Title';
+import Title from '@/components/Title';
 import ProjectItem from './components/ProjectItem';
 
 // import projectsList

@@ -3,8 +3,8 @@ import { Box } from '@mui/material';
 import styles from './Contact.module.css';
 
 // import components
-import Title from '@/components/common/Title';
-import CustomLinkButton from '@/components/common/CustomLinkButton/CustomLinkButton';
+import Title from '@/components/Title';
+import CustomLinkButton from '@/components/CustomLinkButton/CustomLinkButton';
 
 // import contact link
 import homeConfig from '@/config/home.config';

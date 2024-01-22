@@ -3,7 +3,7 @@ import { Box, Typography } from '@mui/material';
 import styles from './Skills.module.css';
 
 // import components
-import Title from '@/components/common/Title';
+import Title from '@/components/Title';
 import TechStack from './TechStack/TechStack';
 import Tools from './Tools/Tools';
 

@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material';
 import styles from '../Projects.module.css';
 
 // import components
-import ProjectsLinks from '../../../components/common/Projects/ProjectsLinks';
+import ProjectsLinks from '@/components/Projects/ProjectsLinks';
 import ImageSlider from './ImageSlider';
 
 function ProjectItem({ project, id }) {
