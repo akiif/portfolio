@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import styles from './HomeHeader.module.css';
+import styles from '../HomeHeader.module.css';
 
 // import fonts
 import { montserrat } from '@/utils/fonts.util';

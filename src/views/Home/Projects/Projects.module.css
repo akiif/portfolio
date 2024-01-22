@@ -57,3 +57,45 @@
   margin-top: 100px;
   letter-spacing: 2px;
 }
+
+/* Media Query for Smartphones */
+@media (max-width: 768px) {
+  .projects {
+    padding: 5% 12% 8%;
+  }
+
+  .projects__item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project__details {
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project__desc {
+    font-size: 1rem;
+  }
+
+  .projects__img {
+    height: auto;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .project__title {
+    align-self: center;
+  }
+
+  .project__link__icon {
+    font-size: 2.2rem;
+  }
+
+  .project__link__btn {
+    margin-top: 80px;
+  }
+}

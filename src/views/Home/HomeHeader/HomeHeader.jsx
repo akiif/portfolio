@@ -3,9 +3,9 @@ import { Box } from '@mui/material';
 import styles from './HomeHeader.module.css';
 
 // import components
-import HomeHeaderGreetings from './HomeHeaderGreetings';
-import HeaderSocialIcons from './HeaderSocialIcons';
-import HeaderImage from './HeaderImage';
+import HomeHeaderGreetings from './components/HomeHeaderGreetings';
+import HeaderSocialIcons from './components/HeaderSocialIcons';
+import HeaderImage from './components/HeaderImage';
 
 function HomeHeader() {
   return (

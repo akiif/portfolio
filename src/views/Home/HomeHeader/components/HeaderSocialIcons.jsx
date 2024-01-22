@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './HomeHeader.module.css';
+import styles from '../HomeHeader.module.css';
 
 // import components
 import HeaderSocialLinks from './HeaderSocialLinks';

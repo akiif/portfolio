@@ -11,3 +11,10 @@
   text-transform: uppercase;
   padding: 8px 17px;
 }
+
+/* Media Query for Smartphones */
+@media (max-width: 768px) {
+  .contact {
+    margin-bottom: 20px;
+  }
+}
