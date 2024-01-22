@@ -4,13 +4,13 @@ import { Box } from '@mui/material';
 import styles from './Projects.module.css';
 
 // import components
-import Title from '../common/Title';
-import ProjectItem from './ProjectItem';
+import Title from '../../components/common/Title';
+import ProjectItem from './components/ProjectItem';
 
 // import projectsList
 import ProjectsList from './ProjectsList';
 
-function ProjectsPage() {
+function Projects() {
   return (
     <Box className={styles.projects}>
       <Title>Projects</Title>
@@ -23,4 +23,4 @@ function ProjectsPage() {
   );
 }
 
-export default ProjectsPage;
+export default Projects;

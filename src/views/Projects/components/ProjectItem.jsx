@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import { Box, Typography } from '@mui/material';
-import styles from './Projects.module.css';
+import styles from '../Projects.module.css';
 
 // import components
-import ProjectsLinks from '../common/Projects/ProjectsLinks';
+import ProjectsLinks from '../../../components/common/Projects/ProjectsLinks';
 import ImageSlider from './ImageSlider';
 
 function ProjectItem({ project, id }) {

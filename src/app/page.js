@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
 // import home page layout
-import HomePageLayout from "../layouts/HomePageLayout";
+import Home from '@/views/Home/Home';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
-      <HomePageLayout />
+      <Home />
     </>
   );
 }

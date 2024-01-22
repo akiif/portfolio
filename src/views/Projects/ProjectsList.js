@@ -1,12 +1,12 @@
 // Carousel Images Import
-import TaskMaster from './ProjectImages/TaskMaster';
-import ChatApp from './ProjectImages/ChatApp';
-import Edunix from './ProjectImages/Edunix';
-import AtmSystem from './ProjectImages/AtmSystem';
-import ProgrammingWiki from './ProjectImages/ProgrammingWiki';
-import WeatherApp from './ProjectImages/WeatherApp';
-import GuessColor from './ProjectImages/GuessColor';
-import Portfolio from './ProjectImages/Portfolio';
+import TaskMaster from './components/ProjectImages/TaskMaster';
+import ChatApp from './components/ProjectImages/ChatApp';
+import Edunix from './components/ProjectImages/Edunix';
+import AtmSystem from './components/ProjectImages/AtmSystem';
+import ProgrammingWiki from './components/ProjectImages/ProgrammingWiki';
+import WeatherApp from './components/ProjectImages/WeatherApp';
+import GuessColor from './components/ProjectImages/GuessColor';
+import Portfolio from './components/ProjectImages/Portfolio';
 
 // Tech Stack Images Import
 import {

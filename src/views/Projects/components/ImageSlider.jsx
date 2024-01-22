@@ -4,7 +4,7 @@ import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import LensIcon from '@mui/icons-material/Lens';
 import Image from 'next/image';
-import styles from './Projects.module.css';
+import styles from '../Projects.module.css';
 
 function ImageSlider({ slides }) {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
