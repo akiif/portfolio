@@ -140,3 +140,7 @@
   flex-wrap: wrap;
   margin-top: 5px;
 }
+
+.circle__selector:hover {
+  fill: #4786e5;
+}

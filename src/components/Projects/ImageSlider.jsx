@@ -44,6 +44,7 @@ function ImageSlider({ slides }) {
         {slides.map((slide, index) => (
           <IconButton key={index} onClick={() => setActiveImageIndex(index)}>
             <LensIcon
+            className={styles.circle__selector}
               sx={{
                 fill: index === activeImageIndex && '#810CA8',
               }}
