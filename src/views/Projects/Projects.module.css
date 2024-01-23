@@ -144,3 +144,45 @@
 .circle__selector:hover {
   fill: #4786e5;
 }
+
+/* Media Query from Tablets */
+@media (max-width: 1044px) {
+  .slide__img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .arrow__icon {
+    font-size: 2rem;
+  }
+}
+
+/* Media Query for Smartphones */
+@media (max-width: 768px) {
+  .slide__img {
+    width: 100%;
+    height: auto;
+  }
+
+  .projects__item__links {
+    font-size: 2rem;
+  }
+
+  .projects__item__links {
+    font-size: 2rem;
+  }
+
+  .projects__item__desc {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .projects__tech__stack__images {
+    height: 22px;
+    width: 22px;
+  }
+
+  .projects__tech__stack__title {
+    font-size: 20px;
+  }
+}

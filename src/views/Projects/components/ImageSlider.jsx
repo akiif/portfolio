@@ -37,14 +37,18 @@ function ImageSlider({ slides }) {
               src={slide}
               alt={`image-${index + 1}`}
               className={styles.slide__img}
+              key={`${crypto.randomUUID()} - ${index}`}
             />
           );
       })}
       <Box className={styles.circle__selector__container}>
         {slides.map((slide, index) => (
-          <IconButton key={index} onClick={() => setActiveImageIndex(index)}>
+          <IconButton
+            key={`${crypto.randomUUID()} - ${index}`}
+            onClick={() => setActiveImageIndex(index)}
+          >
             <LensIcon
-            className={styles.circle__selector}
+              className={styles.circle__selector}
               sx={{
                 fill: index === activeImageIndex && '#810CA8',
               }}

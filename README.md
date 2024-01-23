@@ -19,7 +19,7 @@ A Personal Portfolio Website built using NextJs.
 
 - Next.js 13.4.9
 - React 18.2.0
-- Node 18.16.1
+- Node 20.10.0
 
 ## Features
 
@@ -33,7 +33,7 @@ A Personal Portfolio Website built using NextJs.
 To run this project:
 
 - Download the project code or clone it using git clone.
-- Make sure you have [NodeJs v18.16.1](https://nodejs.org/en/) and [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) installed in your system.
+- Make sure you have [NodeJs v20.10.0](https://nodejs.org/en/) and [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) installed in your system.
 - Then, Install and run it locally using yarn:
 
 ```
