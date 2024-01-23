@@ -1,0 +1,40 @@
+.not_found_page {
+  padding-top: 20px;
+  background: url('/images/not-found/not-found-bg.svg');
+}
+
+.not_found_img {
+  height: 95%;
+  width: 95%;
+}
+
+.not_found_text_container {
+  padding: 25px;
+  margin-left: 25px;
+}
+
+.not_found_main_heading {
+  font-family: var(--font-inter);
+  font-size: 54px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.not_found_sub_heading {
+  font-family: var(--font-montserrat);
+  color: #ffffff;
+}
+
+/* Media Query for Smartphones */
+@media (max-width: 768px) {
+  .not_found_page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .not_found_img {
+    height: 85%;
+    width: 85%;
+  }
+}

@@ -1,4 +1,4 @@
-import { Poppins, Lato, Montserrat, Sora } from 'next/font/google';
+import { Poppins, Lato, Montserrat, Sora, Inter } from 'next/font/google';
 
 export const poppins = Poppins({
   subsets: ['latin'],
@@ -18,6 +18,7 @@ export const montserrat = Montserrat({
   subsets: ['latin'],
   style: ['normal'],
   weight: ['700', '900'],
+  variable: '--font-montserrat',
   display: 'swap',
 });
 
@@ -25,5 +26,13 @@ export const sora = Sora({
   subsets: ['latin'],
   style: ['normal'],
   weight: ['800'],
+  display: 'swap',
+});
+
+export const inter = Inter({
+  weight: ['900'],
+  subsets: ['latin'],
+  style: ['normal'],
+  variable: '--font-inter',
   display: 'swap',
 });
