@@ -1,5 +1,6 @@
 .not_found_page {
   display: flex;
+  justify-content: space-around;
   padding-top: 20px;
   background: url('/images/not-found/not-found-bg.svg');
 }
@@ -30,6 +31,13 @@
   margin-top: 20px;
   display: flex;
   gap: 15px;
+}
+
+.not_found_img_container {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 /* Media Query for Smartphones */
