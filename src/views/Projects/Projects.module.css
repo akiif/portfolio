@@ -159,13 +159,19 @@
 
 /* Media Query for Smartphones */
 @media (max-width: 768px) {
+  .projects__item__title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
   .slide__img {
     width: 100%;
     height: auto;
   }
 
-  .projects__item__links {
-    font-size: 2rem;
+  .right__arrow {
+    left: 92%;
+    bottom: 44%;
   }
 
   .projects__item__links {
