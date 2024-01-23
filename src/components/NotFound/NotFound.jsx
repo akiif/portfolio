@@ -15,7 +15,7 @@ function NotFound() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Grid container spacing={4} className={styles.not_found_page}>
+      <Box container spacing={4} className={styles.not_found_page}>
         <Grid
           item
           xs={6}
@@ -31,7 +31,7 @@ function NotFound() {
               The page you are looking for might be removed or is temporarily
               unavailable.
             </Typography>
-            <Box sx={{ marginTop: '20px', display: 'flex', gap: '15px' }}>
+            <Box className={styles.not_found_btn_container}>
               <Button variant="outlined" onClick={() => handleRedirect('/')}>
                 HOME
               </Button>
@@ -39,7 +39,7 @@ function NotFound() {
           </Box>
         </Grid>
 
-        <Grid item xs={6}>
+        <Grid item xs={6} className={styles.not_found_img_container}>
           <Image
             src="/images/not-found/not-found.svg"
             alt="404"
@@ -48,7 +48,7 @@ function NotFound() {
             className={styles.not_found_img}
           />
         </Grid>
-      </Grid>
+      </Box>
     </ThemeProvider>
   );
 }
