@@ -169,8 +169,13 @@
     height: auto;
   }
 
+  .left__arrow {
+    top: 40%;
+    left: 2%;
+  }
+
   .right__arrow {
-    left: 92%;
+    left: 86%;
     bottom: 44%;
   }
 

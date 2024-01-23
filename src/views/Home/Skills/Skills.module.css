@@ -1,5 +1,5 @@
 .skills {
-  padding: 4% 15% 2%;
+  padding: 5% 15% 2%;
 }
 
 .skills__sub__title {
@@ -48,4 +48,24 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+}
+
+/* Media Query from Tablets */
+@media (max-width: 1044px) {
+}
+
+/* Media Query for Smartphones */
+@media (max-width: 768px) {
+  .skills {
+    padding: 6% 15% 2%;
+  }
+
+  .skills__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skills__item__title {
+    font-size: 1em;
+  }
 }

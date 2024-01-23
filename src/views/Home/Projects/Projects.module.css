@@ -61,7 +61,7 @@
 /* Media Query for Smartphones */
 @media (max-width: 768px) {
   .projects {
-    padding: 5% 12% 8%;
+    padding: 6% 12% 10%;
   }
 
   .projects__item {
