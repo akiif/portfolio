@@ -11,6 +11,7 @@ import {
   MenuItem,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import { useBackground } from '@/store/globalStore';
 import styles from './Navbar.module.css';
 
 // import components
@@ -24,6 +25,7 @@ function Navbar() {
   const [showNavMenu, setShowNavMenu] = useState(null);
   const currentPage = usePathname();
   const router = useRouter();
+  const background = useBackground();
 
   const handleOpenNavMenu = (event) => {
     setShowNavMenu(event.currentTarget);
@@ -36,13 +38,18 @@ function Navbar() {
   const handleChangeRoute = (path) => {
     router.push(path);
     setShowNavMenu(null);
-  }
+  };
 
   return (
     <AppBar
       variant="contained"
       position="static"
       className={styles.navbar__container}
+      sx={{
+        ...(background && {
+          background: `${background}`,
+        }),
+      }}
     >
       <Container maxWidth="xl">
         <Toolbar className={styles.navbar__toolbar}>
@@ -88,7 +95,10 @@ function Navbar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.display} onClick={() => handleChangeRoute(page.href)}>
+                <MenuItem
+                  key={page.display}
+                  onClick={() => handleChangeRoute(page.href)}
+                >
                   <NavbarLink page={page} currentPage={currentPage} />
                 </MenuItem>
               ))}

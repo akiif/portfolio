@@ -1,4 +1,5 @@
 import React from 'react';
+import { useBackground } from '@/store/globalStore';
 import styles from './Footer.module.css';
 
 // import mui icons
@@ -8,8 +9,17 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Footer() {
+  const background = useBackground();
+
   return (
-    <footer className={`${styles.footer} colored__section`}>
+    <footer
+      className={`${styles.footer} colored__section`}
+      style={{
+        ...(background && {
+          background: `${background}`,
+        }),
+      }}
+    >
       <div className={styles.footer__socials}>
         <p className={styles.footer__item}>
           <a

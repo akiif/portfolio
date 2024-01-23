@@ -1,17 +1,28 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { Box, Button, Grid, ThemeProvider, Typography } from '@mui/material';
 import theme from '@/utils/theme.util';
+import { useResetState, useSetBackground } from '@/store/globalStore';
 import styles from './NotFound.module.css';
 
 function NotFound() {
   const router = useRouter();
+  const setBackground = useSetBackground();
+  const resetState = useResetState();
 
   const handleRedirect = (path) => {
     router.push(path);
   };
+
+  useEffect(() => {
+    setBackground(`url('/images/not-found/not-found-bg.svg')`);
+
+    return () => {
+      resetState();
+    };
+  }, []);
 
   return (
     <ThemeProvider theme={theme}>
