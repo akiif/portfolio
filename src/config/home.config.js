@@ -1,6 +1,6 @@
 const homeConfig = {
   resumeLink:
-    'https://drive.google.com/uc?export=download&id=13wg4O8rIj8UqfbNXqBXVLfA2Wu5R5aB9',
+    'https://drive.google.com/uc?export=download&id=1cbKCpKWFlWG-Qb6OS-GZoCQeKMEgD0tG',
   contactLink: 'mailto:akiif.dev@gmail.com?subject=Get In Touch&body=Hey Akif,',
 };
 
